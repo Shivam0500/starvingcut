@@ -11,4 +11,9 @@ function orderstatus() {
 
 
 // 
-
+function checkorderstatu(){
+    setTimeout(()=>{
+        if(isorderaccepted) alert(' the order is accepted by restaurant');
+        else alert('not accepted by restaurant');
+    },5000);
+}
